@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(4, 145, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-family: "century Gothic";
+}
+h1{
+    color: rgb(5, 109, 78);
+}
+h1, #menu{
+    display: inline-block;
+}
+img{
+    border-radius: 10px;
+}
+#menu{
+    margin-left: 100px;
+}
+#menu{
+    margin-left: 100px;
+}
+#menu a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(32, 16, 16);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 2px;
+    text-align: left;
+}
+#menu a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 145, 255);
+}
+#identites, #reseaux, #produits{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h2{
+    color: rgb(4, 28, 114);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+td{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+#produits p{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+    vertical-align: top;
+}
+#produits p img{
+    width: 200px;
+}
+@media screen and (min-widt:1024px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: rgb(4, 145, 255);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        font-family: "century Gothic";
+    }
+    h1{
+        color: rgb(5, 109, 78);
+    }
+    a{
+        display: inline;
+        color: rgb(24, 13, 13);
+    }
+    h1, #menu{
+        display: inline-block;
+    }
+    img{
+        border-radius: 10px;
+    }
+    #menu{
+        margin-left: 100px;
+    }
+    #menu a{
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+        color: rgb(32, 16, 16);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 2px;
+        text-align: left;
+    }
+    #menu a:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(4, 145, 255);
+    }
+    #identites, #reseaux, #produits{
+        background-color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    h2{
+        color: rgb(4, 28, 114);
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    td{
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+    }
+    #produits p{
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 15px;
+        vertical-align: top;
+    }
+    #produits p img{
+        width: 200px;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+    h1{
+        color: rgb(226, 64, 64);
+    }
+    h1, #menu{
+        display: inline-block;
+    }
+    img{
+        border-radius: 8px;
+    }
+    #menu{
+        margin-left: 90px;
+    }
+    #menu a{
+        text-decoration: none;
+        display: block;
+        margin-right: 8px;
+        color: rgb(134, 12, 94);
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 18px;
+        padding-left: 18px;
+        border-radius: 2px;
+        text-align: left;
+    }
+    #menu a:hover{
+        background-color: azure;
+        color: black;
+    }
+    #identites, #reseaux, #produits{
+        color: rgb(11, 19, 19);
+        margin-top: 28px;
+        margin-bottom: 28px;
+        padding: 18px;
+        border-radius: 5px;
+    }
+    h2{
+        color: rgb(5, 5, 92);
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    td{
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+    }
+    #produits p{
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 15px;
+        vertical-align: top;
+    }
+    #produits p img{
+        width: 200px;
+    }
+}
+@media screen and (max-width:767px) {
+    h1{
+        color: rgba(23, 146, 70, 0.856);
+    }
+    h1, #menu{
+        display: block;
+    }
+    img{
+        border-radius: 5px;
+    }
+    #menu{
+        margin-left: 90px;
+    }
+    #menu a{
+        text-decoration: none;
+        display: block;
+        margin-right: 8px;
+        color: rgb(90, 17, 66);
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 9px;
+        padding-left: 9px;
+        border-radius: 2px;
+        text-align: left;
+    }
+    #menu a:hover{
+        background-color: rgb(207, 228, 228);
+        color: rgb(29, 26, 26);
+    }
+    #identites, #reseaux, #produits{
+        color: rgb(10, 15, 15);
+        margin-top: 28px;
+        margin-bottom: 28px;
+        padding: 18px;
+        border-radius: 5px;
+    }
+    h2{
+        color: rgb(48, 48, 121);
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    td{
+        display: block;
+        margin-right: 20px;
+    }
+    #produits p{
+        display: block;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    #produits p img{
+        width: 200px;
+    }
+}
